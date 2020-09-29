@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulario Parte 2</h1>
+    Nombre<br />
+    <input
+      id="txtnombre"
+      type="text"
+      name="txtnombre"
+      placeholder="Tu Nombre"
+    />
+    <br /><br />
+    Ciudad<br />
+    <select id="txtciudad" name="txtciudad">
+      <option value="">Seleccione Ciudad</option>
+      <option value="TALCA">Talca</option>
+      <option value="LINARES">Linares</option>
+      <option value="CURICO">Curico</option>
+    </select>
+
+    <br /><br />
+    Aficiones<br />
+    <input type="checkbox" id="op1" name="op1" value="FUTBOL" />
+    Futbol <br />
+    <input type="checkbox" id="op2" name="op1" value="AUTOS" />
+    Autos <br />
+    <input type="checkbox" id="op3" name="op1" value="MUSICA" />
+    Musica <br />
+
+    <br /><br />
+    Sexo<br />
+    <input type="radio" id="rd1" name="rd" value="F" checked /> Femenino
+    <input type="radio" id="rd2" name="rd" value="M" /> Masculino <br /><br />
+    <button id="boton">Procesar</button>
+
+    <br /><br />
+
+    <div id="salida"></div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
